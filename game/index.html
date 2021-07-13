@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project-92</title>
+    <script src="./script.js" defer></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h3 id="player1"></h3>
+    <p id="player1score">0</p>
+    <br />
+    <h3 id="player2"></h3>
+    <p id="player2score">0</p>
+    <span>
+      <div class="container">
+        <h1 class="cen">THIS IS MATH QUIZ</h1>
+      </div>
+    </span>
+    <div class="container">
+      <div
+        id="output"
+        style="
+          background-color: white;
+          border-top: 15px solid red;
+          margin-top: 10px;
+          height: 150px;
+        "
+      ></div>
+      <input
+        type="number"
+        class="form-control"
+        style="margin-top: 125px"
+        placeholder="Enter the 1st number"
+        id="number1"
+      />
+      <input
+        type="number"
+        class="form-control"
+        style="margin-top: 125px"
+        placeholder="Enter the 2nd number"
+        id="number2"
+      />
+      <br /><br /><br />
+      <center>
+        <button
+          class="btn btn-danger"
+          id="send"
+          ondblclick="window.alert('is once not enough???')"
+        >
+          Send
+        </button>
+      </center>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+body {
+  background: linear-gradient(to right, hsl(50, 100%, 50%), hsl(50, 100%, 30%));
+  max-width: 100vw;
+  max-height: 100vh;
+  color: aliceblue;
+}
+:is(h1, h2, h3, h4,p) {
+  --main-size: 5px;
+  background-color: black;
+  width: fit-content;
+  padding: var(--main-size);
+  margin: 1px;
+  border-radius: var(--main-size);
+}
+
+.cen {
+  position: absolute;
+  top: 0;
+  left: 550px;
+}
+#a{
+  top: 100px;
+}
+#b{
+  top: 150px;
+}
+:is(#a, #b):hover{
+  background: gray;
+  cursor: pointer; 
+}
+::selection{
+  background-color: transparent;
+}
